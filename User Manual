@@ -1,6 +1,0 @@
-User Manual 
-
-In order to run the program, open the .py file called ‘NavigateApp.py’. When you first open the app you are prompted to the sign in interface. 
-All username and password data is saved as a dictionary to a datasheet.txt file.
-
-
