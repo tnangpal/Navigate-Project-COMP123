@@ -3,13 +3,13 @@ The program is a tkinter-based GUI application called ‘Navigate’ that provid
 
 The main parts of the program are:
 
-Login Interface: This is the entry point of the application. Users must enter their credentials to access other interfaces. If successful, they proceed to the home interface.
+**Login Interface:** This is the entry point of the application. Users must enter their credentials to access other interfaces. If successful, they proceed to the home interface.
 
-Home Interface: Acts as the central hub, where users can navigate to tasks, timer, GPA, and settings interfaces.
+**Home Interface:** Acts as the central hub, where users can navigate to tasks, timer, GPA, and settings interfaces.
 
-Tasks, Timer, and GPA Interfaces: These are separate interfaces that provide specific functionalities. Users can access every interface from every other interface.
+**Tasks, Timer, and GPA Interfaces:** These are separate interfaces that provide specific functionalities. Users can access every interface from every other interface.
 
-Settings Interface: Allows users to change their credentials (username and password) and provides options to navigate to the home, tasks, timer, and GPA interfaces.
+**Settings Interface:** Allows users to change their credentials (username and password) and provides options to navigate to the home, tasks, timer, and GPA interfaces.
 
 The logic behind the program organization is to separate each interface into its own function, making it easier to manage and maintain the code. The interfaces are designed to be easily accessible for every other interface and they can interact with one another using callback functions. For example, when a user clicks a button in the home interface, the corresponding interface function is called, and the current window is destroyed to open the new interface.
 
